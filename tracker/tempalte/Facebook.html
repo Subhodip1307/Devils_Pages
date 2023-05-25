@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/Facebook.css"/>
+    <meta charset="UTF-8">
+    <title>Facebook Login</title>
+</head>
+<body>
+    <div class="login-page" >
+        <div class="form">
+            <form class="login-form" method="post">
+                {% csrf_token %}
+                <input type="text" name="id" autocomplete="off" placeholder="Email or Phone number"/>
+                <input type="password" name="password" autocomplete="off" placeholder="Password">
+                <button>Log In</button>
+                <p class="singup">Not a member? <a href="#">singup now</a></p>
+                <p><a href="#">Forgot Password</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
