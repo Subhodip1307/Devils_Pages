@@ -19,4 +19,4 @@
 > <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation/">cloudflare</a>
 
 # Usage
-Still working on the project please wait and come after 1 week from today. Thanking you
+Still working on the project please wait . Thanking you
